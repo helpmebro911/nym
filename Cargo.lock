@@ -7250,6 +7250,22 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "jwt-simple",
+ "nym-crypto 0.4.0",
+ "nym-http-api-client 0.1.0",
+ "reqwest 0.12.22",
+ "serde",
+ "serde_json",
+ "thiserror 2.0.12",
+ "time",
+ "tracing",
+]
+
+[[package]]
+name = "nym-upgrade-mode-check"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "jwt-simple",
  "nym-crypto",
  "nym-http-api-client",
  "reqwest 0.12.22",
